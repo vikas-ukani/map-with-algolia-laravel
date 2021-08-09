@@ -1,0 +1,14 @@
+.ie10 .section-signup, .ie11 .section-signup { /*height: 885px;*/ }
+.ie10 .right-deadlight, .ie11 .right-deadlight { align-items: inherit; }
+.ie10 .brand-items, .ie11 .brand-items { position: relative; }
+.ie10 .brand-items img, .ie11 .brand-items img { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ie10 .section-popup,
+.ie11 .section-popup  {
+	height: 764px
+}

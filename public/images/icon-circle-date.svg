@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-circle-date" transform="translate(-1288 -702)">
+    <g id="Group_134" data-name="Group 134" transform="translate(183 67)">
+      <circle id="Ellipse_45" data-name="Ellipse 45" cx="12" cy="12" r="12" transform="translate(1105 635)"/>
+    </g>
+    <path id="calendar" d="M10.489,2.711H9.933V3.822H8.267V2.711H4.933V3.822H3.267V2.711H2.711A1.114,1.114,0,0,0,1.6,3.822v6.667A1.114,1.114,0,0,0,2.711,11.6h7.778A1.114,1.114,0,0,0,11.6,10.489V3.822a1.114,1.114,0,0,0-1.111-1.111Zm0,7.778H2.711V6.044h7.778ZM4.656,1.6H3.544V3.544H4.656Zm5,0H8.544V3.544H9.656Z" transform="translate(1293.4 707.4)" fill="#fff"/>
+  </g>
+</svg>

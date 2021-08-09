@@ -1,0 +1,21 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+  $(document).ready(function(){  
+	  $('#make').change(function() {
+		  alert("HHHHH");
+          alert("TEST==>"+$(this).val()); 
+        	if($(this).val() == 'AUDI')
+            {
+			    var autdi_array = [AUDI1,AUDI2,AUDI3];
+				$.inArray(this.value, autdi_array);
+              alert("ININI");
+              $('#model option').each(function(){
+                  if ($.inArray(this.value, autdi_array)) 
+				  {
+				  }
+              });
+            }
+	  }); 
+  });
+</script>

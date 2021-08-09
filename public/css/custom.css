@@ -1,55 +1,52 @@
-        #map {
-            height: 100%;
-        }
+#map {
+    height: 100%;
+}
 
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
+ul#property_list > li {
+    padding: 5px;
+    font-weight: 600;
+}
 
-        ul#property_list>li {
-            padding: 5px;
-            font-weight: 600;
-        }
+.sideFilters {
+    width: 60%;
+    display: inline-flex;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
-        .sideFilters {
-            width: 60%;
-            display: inline-flex;
-            position: fixed;
-            overflow-y: scroll;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-        }
+.mt5 {
+    margin-top: 15px !important;
+}
 
-        .mt5 {
-            margin-top: 15px !important
-        }
+.property_list {
+    width: 100% !important;
+    float: left !important;
+    background-color: gainsboro !important;
+    list-style: auto !important;
+    font-weight: 600;
+}
 
-        .property_list {
-            width: 100% !important;
-            float: left !important;
-            background-color: gainsboro !important;
-            list-style: auto !important;
-            font-weight: 600;
-        }
+.ais-RangeSlider .rheostat-handle {
+    background-color: #fff;
+    background-image: linear-gradient(-180deg, #fff, #fcfcfd);
+    border: 1px solid #d6d6e7;
+    border-radius: 50% !important;
+    box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+    height: 18px;
+    width: 18px;
+    margin-left: -6px;
+    top: -6px;
+}
 
-        .ais-RangeSlider .rheostat-handle {
-            background-color: #fff;
-            background-image: linear-gradient(-180deg, #fff, #fcfcfd);
-            border: 1px solid #d6d6e7;
-            border-radius: 50% !important;
-            box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
-            height: 18px;
-            width: 18px;
-            margin-left: -6px;
-            top: -6px;
-        }
+.ais-RangeSlider .rheostat-handle:after,
+.ais-RangeSlider .rheostat-handle:before {
+    content: none !important;
+}
 
-        .ais-RangeSlider .rheostat-handle:after,
-        .ais-RangeSlider .rheostat-handle:before {
-            content: none !important
-        }
+.ais-SearchBox-reset {
+    right: 30px !important;
+}
