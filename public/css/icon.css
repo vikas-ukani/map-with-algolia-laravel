@@ -1,0 +1,114 @@
+.icon {background-image:url('../images/icons.svg');background-repeat:no-repeat; display: inline-block;position: relative;vertical-align: middle; }
+.icon-add-user{background-position:0 0;width:57px;height:56px}
+.icon-announcement{background-position:0 -56px;width:60px;height:60px}
+.icon-arrow-long-left{background-position:0 -116px;width:29px;height:18px}
+.icon-arrow-long-right-white{background-position:0 -134px;width:29px;height:18px}
+.icon-arrow-long-right{background-position:0 -152px;width:29px;height:18px}
+.icon-beenhere{background-position:0 -170px;width:59px;height:72px}
+.icon-calendar{background-position:0 -242px;width:34px;height:44px}
+.icon-cancel{background-position:0 -286px;width:26px;height:26px}
+.icon-chat{background-position:0 -312px;width:32px;height:29px}
+.icon-check{background-position:0 -341px;width:16px;height:17px}
+.icon-chevron-small-left{background-position:0 -358px;width:10px;height:17px}
+.icon-chevron-small-right{background-position:0 -375px;width:10px;height:17px}
+.icon-circle-delete{background-position:0 -392px;width:24px;height:24px}
+.icon-circle-done{background-position:0 -416px;width:25px;height:25px}
+.icon-circle-info{background-position:0 -441px;width:22px;height:22px}
+.icon-close{background-position:0 -463px;width:14px;height:14px}
+.icon-credit-card{background-position:0 -477px;width:50px;height:35px}
+.icon-dashboard-active,.menu li.active .icon-dashboard{background-position:0 -512px;width:22px;height:22px}
+.icon-date{background-position:0 -534px;width:22px;height:22px}
+.icon-decline{background-position:0 -556px;width:22px;height:22px}
+.icon-delete{background-position:0 -578px;width:10px;height:13px}
+.icon-done{background-position:0 -591px;width:18px;height:13px}
+.icon-drink{background-position:0 -604px;width:15px;height:17px}
+.icon-facebook-mountain{background-position:0 -621px;width:26px;height:26px}
+.icon-facebook{background-position:0 -647px;width:32px;height:32px}
+.icon-filter{background-position:0 -679px;width:21px;height:21px}
+.icon-find{background-position:0 -700px;width:51px;height:63px}
+.icon-globe{background-position:0 -763px;width:58px;height:58px}
+.icon-grade{background-position:0 -821px;width:68px;height:65px}
+.icon-heart-active,.menu li.active .icon-heart{background-position:0 -886px;width:28px;height:22px}
+.icon-heart-mountain{background-position:0 -908px;width:28px;height:22px}
+.icon-heart{background-position:0 -930px;width:28px;height:22px}
+.icon-highlight,.menu li.active .icon-decline{background-position:0 -952px;width:22px;height:22px}
+.icon-history{background-position:0 -974px;width:33px;height:28px}
+.icon-image-inverted-black{background-position:0 -1002px;width:21px;height:17px}
+.icon-image-inverted{background-position:0 -1019px;width:21px;height:16px}
+.icon-info{background-position:0 -1035px;width:10px;height:21px}
+.icon-instagram-mountain{background-position:0 -1056px;width:26px;height:26px}
+.icon-instagram{background-position:0 -1082px;width:32px;height:32px}
+.icon-location{background-position:0 -1114px;width:57px;height:60px}
+.icon-medal{background-position:0 -1174px;width:55px;height:68px}
+.icon-moneybag{background-position:0 -1242px;width:23px;height:37px}
+.icon-pictures{background-position:0 -1279px;width:51px;height:47px}
+.icon-playlist{background-position:0 -1326px;width:85px;height:57px}
+.icon-pricetag{background-position:0 -1383px;width:43px;height:44px}
+.icon-safe{background-position:0 -1427px;width:50px;height:57px}
+.icon-save-active,.menu li.active .icon-save{background-position:0 -1484px;width:19px;height:19px}
+.icon-save{background-position:0 -1503px;width:19px;height:19px}
+.icon-search{background-position:0 -1522px;width:32px;height:32px}
+.icon-send{background-position:0 -1554px;width:27px;height:24px}
+.icon-shop{background-position:0 -1578px;width:19px;height:17px}
+.icon-time{background-position:0 -1595px;width:44px;height:44px}
+.icon-trophy{background-position:0 -1639px;width:18px;height:19px}
+.icon-user-active, .menu li.active .icon-user, .navbar-loggedin .dropdown.show .icon-user,.navbar-loggedin .dropdown:hover .icon-user{background-position:0 -1658px;width:22px;height:24px}
+.icon-user{background-position:0 -1682px;width:22px;height:24px}
+.icon-vcard{background-position:0 -1706px;width:24px;height:17px}
+.icon-view-active,.menu li.active .icon-view{background-position:0 -1723px;width:21px;height:17px}
+.icon-view{background-position:0 -1740px;width:21px;height:17px}
+.icon-visibility{background-position:0 -1757px;width:22px;height:15px}
+.icon-chevron-down-gray { background-position:0 -1779px;width:15px;height:8px }
+.icon-chevron-down-white { background-position:0 -1790px;width:15px;height:8px }
+.icon-small-chevron-left { background-position:0 -1805px;width:6px;height:11px }
+.icon-small-chevron-right { background-position:0 -1820px;width:6px;height:11px }
+.icon-chevron-left-gray { background-position:0 -1835px;width:8px;height:15px }
+.icon-chevron-right-gray { background-position:0 -1850px;width:8px;height:15px }
+.icon-close-black { background-position:0 -1868px;width:14px;height:14px }
+.icon-event{background-position:0 -1890px;width:64px;height:56px}
+.icon-food{background-position:0 -1950px;width:50px;height:41px}
+.icon-industriel{background-position:0 -2000px;width:51px;height:49px}
+.icon-kiosk{background-position:0 -2058px;width:50px;height:44px}
+.icon-office{background-position:0 -2110px;width:45px;height:41px}
+.icon-popup{background-position:0 -2160px;width:47px;height:61px}
+.icon-retail-shop{background-position:0 -2225px;width:49px;height:49px}
+.icon-shareshop{background-position:0 -2275px;width:49px;height:49px}
+.icon-showroom{background-position:0 -2330px;width:59px;height:45px}
+.icon-storage{background-position:0 -2380px;width:41px;height:37px}
+.icon-market{background-position:0 -2420px;width:54px;height:51px}
+.icon-dashboard{background-position:0 -2475px;width:22px;height:22px}
+.icon-entity{background-position:0 -2505px;width:25px;height:25px}
+.icon-space{background-position:0 -2535px;width:26px;height:23px}
+.icon-entity-active, .menu li.active .icon-entity{background-position:0 -2565px;width:25px;height:25px}
+.icon-space-active, .menu li.active .icon-space{background-position:0 -2595px;width:26px;height:23px}
+.icon-paid-primary{background-position:0 -2625px;width:9px;height:9px}
+.icon-paid-white{background-position:0 -2635px;width:9px;height:9px}
+.icon-visibility-white{background-position:0 -2650px;width:22px;height:15px}
+.icon-delete-black{background-position:0 -2670px;width:15px;height:15px}
+.icon-edit-white{background-position:0 -2690px;width:15px;height:15px}
+.icon-edit-black{background-position:0 -2710px;width:15px;height:15px}
+.icon-delete-white{background-position:0 -2730px;width:15px;height:15px}
+.icon-visibility-active,.menu li.active .icon-visibility-white{background-position:0 -2750px;width:22px;height:15px}
+.icon-bank {background-position:0 -2767px;width:20px;height:20px}
+.icon-bank-active, .menu li.active .icon-bank {background-position:0 -2790px;width:20px;height:20px}
+.icon-circle-date {background-position:0 -2815px;width:24px;height:24px}
+.icon-circle-edit {background-position:0 -2840px;width:24px;height:24px}
+.icon-download {background-position:0 -2870px;width:24px;height:24px}
+.icon-download-active, .menu li.active .icon-download {background-position:0 -2900px;width:24px;height:24px}
+.icon-twitter-mountain{background-position:0 -2926px;width:27px;height:26px}
+.icon-map {background-position: 0 -2952px; width:32px;height:30px}
+.icon-linkedin {background-position: 0 -2984px; width:32px;height:32px}
+.icon-pictures-grey{background-position:0 -3018px;width:51px;height:47px}
+.icon-highlight-red{background-position:0 -3068px;width:22px;height:22px}
+.icon-date-circle {background-position:0 -3092px;width:34px;height:34px}
+.icon-edit-circle {background-position:0 -3128px;width:34px;height:34px}
+.icon-home{background-position:0 -3164px;width:22px;height:22px}
+.icon-home-active,.menu li.active .icon-home{background-position:0 -3188px;width:22px;height:22px}
+.icon-add-space,.menu li.active .icon-home{background-position:0 -3215px;width:34px;height:27px}
+.icon-add-space-acitve,.menu li.active .icon-add-space{background-position:0 -3242px;width:34px;height:27px}
+.icon-delete-circle{background-position:0 -3273px;width:34px;height:34px}
+.icon-user-view{background-position:0 -3307px;width:14px;height:15px}
+.icon-map-white {background-position: 0 -3337px; width:32px;height:30px}
+.icon-call{background-position:0 -3367px;width:26px;height:26px}
+.icon-email{background-position:0 -3393px;width:26px;height:26px}
+.icon-chevron-down-black { background-position:0 -3419px;width:15px;height:8px }

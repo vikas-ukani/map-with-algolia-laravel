@@ -1,0 +1,109 @@
+@-webkit-keyframes ssc-loading {
+	from {
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%)
+	}
+	to {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%)
+	}
+}
+
+@keyframes ssc-loading {
+	from {
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%)
+	}
+	to {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%)
+	}
+}
+.ssc-square:after,
+.ssc-head-line:after,
+.ssc-line:after,
+.ssc-circle:after {
+	content: "";
+	-webkit-animation: ssc-loading 1.3s infinite;
+	animation: ssc-loading 1.3s infinite;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	z-index: 1;
+	background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(255, 255, 255, 0.3)), to(transparent));
+	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent)
+}
+.ssc {
+	cursor: progress;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+.ssc-card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.ssc-wrapper {
+  padding: 0;
+}
+.ssc-square {
+  display: block;
+  background-color: rgba(0, 0, 0, .10);
+  width: 100%;
+  height: 239px;
+  border-radius: 6px;
+}
+.scc-single-square {
+  height: 299px;
+}
+.ssc-single-sm-square {
+	height: 155px;
+}
+.scc-single-lg-square {
+  height: 444px;
+}
+.ssc-head-line {
+  display: block;
+  background-color: rgba(0, 0, 0, .10);
+  width: 100%;
+  height: 30px;
+}
+.ssc-line {
+  display: block;
+  background-color: rgba(0, 0, 0, .10);
+  width: 100%;
+  height: 15px;
+}
+.w-70 {
+  width: 70%;
+}
+.w-25 {
+  width: 25%;
+}
+.space-carousel-home.slick-hide-carousel + .loader-slide {
+  margin-bottom: 115px;
+  margin-top: 25px;
+}
+.space-city-carousel.slick-hide-carousel + .loader-slide,
+.space-mall-carousel.slick-hide-carousel + .loader-slide {
+  margin-top: 25px;
+}
+.loader-slide.row {
+  height: auto;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+  .space-carousel-home.slick-hide-carousel + .loader-slide {
+    margin-bottom: 70px;
+  }
+}
